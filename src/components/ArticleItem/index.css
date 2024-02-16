@@ -1,0 +1,25 @@
+li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.title-heading {
+  font-size: 28px;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 10px;
+}
+
+.image {
+  width: 250px;
+}
+
+@media screen and (max-width: 767px) {
+  .articleItem-container {
+    flex-direction: column;
+  }
+}
